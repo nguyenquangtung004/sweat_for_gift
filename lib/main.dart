@@ -22,7 +22,7 @@ Future<void> checkEnv() async{
   try {
     await dotenv.load();
     talker.info('Đã load file env thành công');
-    await AppConfig.init();
+    // await AppConfig.init();
   } catch (e) {
   }
 }
