@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 Future<void> main()async{
   WidgetsFlutterBinding.ensureInitialized();
   try {
+    
   } catch (e) {
     print(e); 
   }
