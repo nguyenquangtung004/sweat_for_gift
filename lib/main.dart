@@ -15,3 +15,11 @@ Future<void> main()async{
   }
   
 }
+
+Future<void> checkEnv() async{
+  try {
+    await  
+  } catch (e) {
+    print(e); 
+  }
+}
